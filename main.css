@@ -29,7 +29,6 @@ header nav .nav-rigth-section{
     height:  auto;
     display: flex;
     list-style: none;
-    un
     justify-content: center;
     align-items: center;
     
@@ -54,4 +53,18 @@ nav .nav-rigth-section .menu-image img{
     border-radius: 50%;
     margin-left: 10px;
     
+}
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+
+        width: 530px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+}
+main .main-logo img{
+        width: 300px;
 }
