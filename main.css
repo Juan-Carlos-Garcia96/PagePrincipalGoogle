@@ -139,3 +139,38 @@ main .main-buttons button:hover{
     box-shadow: 0 1px 1px black;
     color: black;
 }
+
+footer {
+    width: 150%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: rgb(211, 210, 210);
+     border-top: 1px solid gray;   
+}
+
+footer ul {
+    margin:  10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0 ;
+    
+}
+
+
+footer   .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: rgb(59, 58, 56);
+}
